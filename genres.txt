@@ -1,0 +1,22 @@
+TOP 20 GENRES
+FULL LIST - https://everynoise.com/everynoise1d.cgi?scope=all&vector=popularity
+1		pop
+2		dance pop
+3		rap
+4		rock
+5		hip hop
+6		latin
+7		pop rap
+8		trap latino
+9		trap
+10		modern rock
+11		edm
+12		reggaeton
+13		post-teen pop
+14		pop dance
+15		latin pop
+16		pop rock
+17		electropop
+18  	classic rock
+19		tropical house
+20	   	r&b
