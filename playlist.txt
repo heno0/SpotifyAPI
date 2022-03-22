@@ -1,86 +1,257 @@
-Laughing - The Guess Who  1   Popularity: 52
-These Eyes - The Guess Who  2   Popularity: 64
-Bennie And The Jets - Remastered 2014 - Elton John  3   Popularity: 77
-Movin' Out (Anthony's Song) - Billy Joel  4   Popularity: 68
-Strange Magic - Electric Light Orchestra  5   Popularity: 59
-Maybe I’m Amazed - Remastered 2011 - Paul McCartney  6   Popularity: 70
-She's Gone - Daryl Hall & John Oates  7   Popularity: 68
-Sara Smile - Daryl Hall & John Oates  8   Popularity: 70
-Out of Touch - Daryl Hall & John Oates  9   Popularity: 66
-Mrs. Robinson - From "The Graduate" Soundtrack - Simon & Garfunkel  10   Popularity: 78
-50 Ways to Leave Your Lover - Paul Simon  11   Popularity: 72
-Me and Julio Down by the Schoolyard - Paul Simon  12   Popularity: 74
-You Make Loving Fun - 2004 Remaster - Fleetwood Mac  13   Popularity: 69
-Jet - Remastered 2010 - Wings  14   Popularity: 62
-Goodbye Stranger - 2010 Remastered - Supertramp  15   Popularity: 70
-Lola - The Kinks  16   Popularity: 74
-Only the Good Die Young - Billy Joel  17   Popularity: 71
-Silly Love Songs - Wings  18   Popularity: 52
-Baby Driver - Simon & Garfunkel  19   Popularity: 59
-Mother and Child Reunion - Paul Simon  20   Popularity: 59
-Band On The Run - Remastered 2010 - Wings  21   Popularity: 75
-Kodachrome - Paul Simon  22   Popularity: 66
-Fool in the Rain - Remaster - Led Zeppelin  23   Popularity: 67
-Black Dog - Remaster - Led Zeppelin  24   Popularity: 77
-Private Eyes - Daryl Hall & John Oates  25   Popularity: 31
-I Can't Go for That (No Can Do) - Daryl Hall & John Oates  26   Popularity: 26
-Owner of a Lonely Heart - Yes  27   Popularity: 75
-Take The Long Way Home - 2010 Remastered - Supertramp  28   Popularity: 68
-Evil Woman - Electric Light Orchestra  29   Popularity: 61
-Rikki Don't Lose That Number - Steely Dan  30   Popularity: 66
-Song for the Asking - Simon & Garfunkel  31   Popularity: 48
-Changes - 2015 Remaster - David Bowie  32   Popularity: 72
-Hey Nineteen - Steely Dan  33   Popularity: 66
-I've Seen All Good People: a. Your Move, b. All Good People - 2003 Remaster - Yes  34   Popularity: 59
-Pressure - Billy Joel  35   Popularity: 57
-Stuck In The Middle With You - Stealers Wheel  36   Popularity: 80
-Rich Girl - Daryl Hall & John Oates  37   Popularity: 77
-Graceland - Paul Simon  38   Popularity: 68
-Psycho Killer - 2005 Remaster - Talking Heads  39   Popularity: 76
-Burning Down the House - Talking Heads  40   Popularity: 68
-You're Only Human (Second Wind) - Billy Joel  41   Popularity: 52
-Uptown Girl - Billy Joel  42   Popularity: 81
-One Thing Leads To Another - The Fixx  43   Popularity: 64
-Shining Star - Earth, Wind & Fire  44   Popularity: 67
-King Of Pain - The Police  45   Popularity: 63
-Walking On The Moon - The Police  46   Popularity: 69
-So Lonely - The Police  47   Popularity: 69
-Synchronicity II - The Police  48   Popularity: 59
-It's Still Rock and Roll to Me - Billy Joel  49   Popularity: 71
-Just the Way You Are - Billy Joel  50   Popularity: 74
-Back In The U.S.S.R. - 2018 Mix - The Beatles  51   Popularity: 51
-While My Guitar Gently Weeps - Remastered 2009 - The Beatles  52   Popularity: 73
-Eleanor Rigby - The Beatles  53   Popularity: 72
-Man On The Moon - R.E.M.  54   Popularity: 71
-Orange Crush - Remastered 2013 - R.E.M.  55   Popularity: 63
-Don't Stand So Close To Me - The Police  56   Popularity: 72
-Train in Vain (Stand by Me) - Remastered - The Clash  57   Popularity: 67
-London Calling - Remastered - The Clash  58   Popularity: 75
-I Fought the Law - The Clash  59   Popularity: 61
-Layla - Derek & The Dominos  60   Popularity: 79
-Every Little Thing She Does Is Magic - The Police  61   Popularity: 77
-Cecilia - Simon & Garfunkel  62   Popularity: 76
-Loves Me Like a Rock - Paul Simon  63   Popularity: 57
-That's All - 2007 Remaster - Genesis  64   Popularity: 67
-Pressure - Billy Joel  65   Popularity: 40
-Shooting Star - 2015 Remaster - Bad Company  66   Popularity: 67
-Be Hard on Yourself (II) Lust for Luxury - Marillion  67   Popularity: 33
-Laughing - The Guess Who  68   Popularity: 52
-Oh, Pretty Woman - Roy Orbison  69   Popularity: 77
-Crazy Love, Vol. II - Paul Simon  70   Popularity: 48
-Why Can't I Touch It? - 2001 Remastered Version - Buzzcocks  71   Popularity: 54
-That's All - 2007 Remaster - Genesis  72   Popularity: 67
-Good Times Roll - The Cars  73   Popularity: 64
-Fall in Philadelphia - Daryl Hall & John Oates  74   Popularity: 44
-Fire - The Pointer Sisters  75   Popularity: 60
-Don't Try to Take the Fifth - The Pointer Sisters  76   Popularity: 24
-Fall in Philadelphia - Daryl Hall & John Oates  77   Popularity: 44
-Private Dancer - 2015 Remaster - Tina Turner  78   Popularity: 63
+SWEET / I THOUGHT YOU WANTED TO DANCE (feat. Brent Faiyaz & Fana Hues) - Tyler, The Creator  1   Popularity: 79
+Monster - Kanye West  2   Popularity: 77
+Hold My Liquor - Kanye West  3   Popularity: 70
+Father Stretch My Hands Pt. 1 - Kanye West  4   Popularity: 85
+Blood On The Leaves - Kanye West  5   Popularity: 72
+I Am A God - Kanye West  6   Popularity: 65
+Famous - Kanye West  7   Popularity: 79
+RUNNING OUT OF TIME - Tyler, The Creator  8   Popularity: 75
+Lost & Found - Cordae  9   Popularity: 60
+Wassup (feat. Young Thug) - Cordae  10   Popularity: 58
+Heard 'Em Say - Kanye West  11   Popularity: 71
+911 / Mr. Lonely (feat. Frank Ocean & Steve Lacy) - Tyler, The Creator  12   Popularity: 78
+WUSYANAME (feat. Youngboy Never Broke Again & Ty Dolla $ign) - Tyler, The Creator  13   Popularity: 83
+JUGGERNAUT (feat. Lil Uzi Vert & Pharrell Williams) - Tyler, The Creator  14   Popularity: 77
+RUNITUP (feat. Teezo Touchdown) - Tyler, The Creator  15   Popularity: 71
+RISE! (feat. DAISY WORLD) - Tyler, The Creator  16   Popularity: 69
+Life is Like a Dice Game - Spotify Singles - Nas  17   Popularity: 59
+Dark Fantasy - Kanye West  18   Popularity: 74
+RNP (feat. Anderson .Paak) - Cordae  19   Popularity: 73
+HOT WIND BLOWS (feat. Lil Wayne) - Tyler, The Creator  20   Popularity: 74
+One Beer - MF DOOM  21   Popularity: 3
+Way Back Home (feat. Ty Dolla $ign) - Cordae  22   Popularity: 57
+No More Parties In LA - Kanye West  23   Popularity: 76
+The New Workout Plan - Kanye West  24   Popularity: 71
+ARE WE STILL FRIENDS? - Tyler, The Creator  25   Popularity: 82
+PUPPET - Tyler, The Creator  26   Popularity: 73
+What's Life - From "Liberated / Music For the Movement Vol. 3" - Cordae  27   Popularity: 53
+I THINK - Tyler, The Creator  28   Popularity: 77
+Never Let Me Down - Kanye West  29   Popularity: 72
+Been Around - Cordae  30   Popularity: 54
+GONE, GONE / THANK YOU - Tyler, The Creator  31   Popularity: 83
+I DON'T LOVE YOU ANYMORE - Tyler, The Creator  32   Popularity: 71
+SMUCKERS (feat. Lil Wayne & Kanye West) - Tyler, The Creator  33   Popularity: 72
+Devil In A New Dress - Kanye West  34   Popularity: 82
+Spaceship - Kanye West  35   Popularity: 73
+90210 (feat. Kacy Hill) - Travis Scott  36   Popularity: 81
+SAFARI - Tyler, The Creator  37   Popularity: 68
+We Don't Care - Kanye West  38   Popularity: 73
+No Mistakes - Kanye West  39   Popularity: 67
+Alright - Kendrick Lamar  40   Popularity: 83
+I Wonder - Kanye West  41   Popularity: 66
+30 Hours - Kanye West  42   Popularity: 69
+Hell Of A Life - Kanye West  43   Popularity: 68
+All Falls Down - Kanye West  44   Popularity: 84
+Hey Mama - Kanye West  45   Popularity: 69
+Broke As Fuck - Cordae  46   Popularity: 66
+Champion - Kanye West  47   Popularity: 55
+Violent Crimes - Kanye West  48   Popularity: 81
+Jail - Kanye West  49   Popularity: 30
+God Breathed - Kanye West  50   Popularity: 24
+Off The Grid - Kanye West  51   Popularity: 32
+Moon - Kanye West  52   Popularity: 32
+Junya - Kanye West  53   Popularity: 25
+Believe What I Say - Kanye West  54   Popularity: 28
+Remote Control - Kanye West  55   Popularity: 25
+Heaven and Hell - Kanye West  56   Popularity: 26
+Ok Ok - Kanye West  57   Popularity: 25
+New Again - Kanye West  58   Popularity: 23
+Lord I Need You - Kanye West  59   Popularity: 24
+Pure Souls - Kanye West  60   Popularity: 26
+Jesus Lord pt 2 - Kanye West  61   Popularity: 19
+Junya pt 2 - Kanye West  62   Popularity: 20
+Hurricane - Kanye West  63   Popularity: 37
+Praise God - Kanye West  64   Popularity: 30
+24 - Kanye West  65   Popularity: 25
+FML - Kanye West  66   Popularity: 72
+Drunk and Hot Girls - Kanye West  67   Popularity: 45
+New Slaves - Kanye West  68   Popularity: 70
+Jesus Walks - Kanye West  69   Popularity: 79
+Guilt Trip - Kanye West  70   Popularity: 63
+Send It Up - Kanye West  71   Popularity: 63
+I'm In It - Kanye West  72   Popularity: 64
+LEMONHEAD (feat. 42 Dugg) - Tyler, The Creator  73   Popularity: 74
+NEW MAGIC WAND - Tyler, The Creator  74   Popularity: 88
+Saint Pablo - Kanye West  75   Popularity: 73
+family ties (with Kendrick Lamar) - Baby Keem  76   Popularity: 84
+On God - Kanye West  77   Popularity: 66
+BEST INTEREST - Tyler, The Creator  78   Popularity: 81
+Diamonds From Sierra Leone - Remix - Kanye West  79   Popularity: 66
+Gone - Kanye West  80   Popularity: 63
+We Major - Kanye West  81   Popularity: 66
+Complexion (A Zulu Love) - Kendrick Lamar  82   Popularity: 62
+Get Em High - Kanye West  83   Popularity: 70
+Last Call - Kanye West  84   Popularity: 68
+You Ain't Gotta Lie (Momma Said) - Kendrick Lamar  85   Popularity: 63
+Feedback - Kanye West  86   Popularity: 68
+Waves - Kanye West  87   Popularity: 78
+A BOY IS A GUN* - Tyler, The Creator  88   Popularity: 76
+Wavybone (feat. Juicy J & UGK) - A$AP Rocky  89   Popularity: 58
+Lord Pretty Flacko Jodye 2 (LPFJ2) - A$AP Rocky  90   Popularity: 73
+80 DEGREES -   91   Popularity: 0
+Jonah - Kanye West  92   Popularity: 26
+Keep My Spirit Alive - Kanye West  93   Popularity: 68
+New Again - Kanye West  94   Popularity: 70
+God Breathed - Kanye West  95   Popularity: 67
+Come to Life - Kanye West  96   Popularity: 23
+These Walls - Kendrick Lamar  97   Popularity: 69
+Make Her Say - Kid Cudi  98   Popularity: 52
+Runaway - Kanye West  99   Popularity: 82
+DUCKWORTH. - Kendrick Lamar  100   Popularity: 73
+Ghost Town - Kanye West  101   Popularity: 82
+Two Words - Kanye West  102   Popularity: 70
+King Kunta - Kendrick Lamar  103   Popularity: 79
+Family Business - Kanye West  104   Popularity: 74
+Super - Cordae  105   Popularity: 53
+XSCAPE - Don Toliver  106   Popularity: 67
+Riot! - Earl Sweatshirt  107   Popularity: 72
+Jesus Lord - Kanye West  108   Popularity: 23
+See You Again (feat. Kali Uchis) - Tyler, The Creator  109   Popularity: 88
+Had Enough (feat. Quavo & Offset) - Don Toliver  110   Popularity: 68
+Everything I Am - Kanye West  111   Popularity: 55
+Drugs N Hella Melodies (feat. Kali Uchis) - Don Toliver  112   Popularity: 72
+Gorgeous - Kanye West  113   Popularity: 76
+So Appalled - Kanye West  114   Popularity: 67
+Thousand Words - Cordae  115   Popularity: 54
+Jukebox Joints (feat. Joe Fox & Kanye West) - A$AP Rocky  116   Popularity: 73
+SIR BAUDELAIRE (feat. DJ Drama) - Tyler, The Creator  117   Popularity: 72
+Wassup - A$AP Rocky  118   Popularity: 61
+Brand New Guy (feat. ScHoolboy Q) - A$AP Rocky  119   Popularity: 59
+Palace - A$AP Rocky  120   Popularity: 63
+Wesley's Theory - Kendrick Lamar  121   Popularity: 70
+Sometimes... - Tyler, The Creator  122   Popularity: 64
+Facts (Charlie Heat Version) - Kanye West  123   Popularity: 66
+Roses - Kanye West  124   Popularity: 66
+Drones (feat. Kendrick Lamar, Snoop Dogg, Ty Dolla $ign & James Fauntleroy) - Terrace Martin  125   Popularity: 50
+Work It Out (feat. Cordae) - Terrace Martin  126   Popularity: 44
+This Morning (feat. Arin Ray & Smino) - Terrace Martin  127   Popularity: 57
+Flocky Flocky (feat. Travis Scott) - Don Toliver  128   Popularity: 76
+2AM - Don Toliver  129   Popularity: 64
+Tapped (feat. Channel Tres & Celeste) - Terrace Martin  130   Popularity: 40
+Real Friends - Kanye West  131   Popularity: 71
+You (feat. Travis Scott) - Don Toliver  132   Popularity: 72
+cocoa (with Don Toliver) - Baby Keem  133   Popularity: 63
+Good Morning - Kanye West  134   Popularity: 60
+Homecoming - Kanye West  135   Popularity: 64
+Fly As Me - Bruno Mars  136   Popularity: 73
+After Last Night (with Thundercat & Bootsy Collins) - Bruno Mars  137   Popularity: 73
+Smokin Out The Window - Bruno Mars  138   Popularity: 72
+Put On A Smile - Bruno Mars  139   Popularity: 69
+777 - Bruno Mars  140   Popularity: 70
+Blast Off - Bruno Mars  141   Popularity: 72
+Skate - Bruno Mars  142   Popularity: 68
+Lost In The World - Kanye West  143   Popularity: 69
+Late - Kanye West  144   Popularity: 61
+Life Of The Party (with André 3000) - Kanye West  145   Popularity: 69
+Up From The Ashes - Kanye West  146   Popularity: 60
+Remote Control pt 2 - Kanye West  147   Popularity: 61
+Never Abandon Your Family - Kanye West  148   Popularity: 58
+Keep My Spirit Alive pt 2 - Kanye West  149   Popularity: 58
+Welcome To Heartbreak - Kanye West  150   Popularity: 68
+Paranoid - Kanye West  151   Popularity: 69
+Love Lockdown - Kanye West  152   Popularity: 72
+Heartless - Kanye West  153   Popularity: 87
+Bad News - Kanye West  154   Popularity: 62
+BUZZCUT (feat. Danny Brown) - BROCKHAMPTON  155   Popularity: 56
+Super Bounce - Duckwrth  156   Popularity: 66
+CHAIN ON (feat. JPEGMAFIA) - BROCKHAMPTON  157   Popularity: 56
+COUNT ON ME - BROCKHAMPTON  158   Popularity: 59
+BANKROLL (feat. A$AP Rocky & A$AP Ferg) - BROCKHAMPTON  159   Popularity: 67
+All Of The Lights - Kanye West  160   Popularity: 81
+lost souls (with Brent Faiyaz) - Baby Keem  161   Popularity: 82
+More Life (feat. Q Tip) - Cordae  162   Popularity: 54
+Thornton Street - Cordae  163   Popularity: 51
+Dream in Color - Cordae  164   Popularity: 61
+Coldest Winter - Kanye West  165   Popularity: 63
+Ultralight Beam - Kanye West  166   Popularity: 76
+Sinister (feat. Lil Wayne) - Cordae  167   Popularity: 54
+Neon Guts (feat. Pharrell Williams) - Lil Uzi Vert  168   Popularity: 83
+Reborn - KIDS SEE GHOSTS  169   Popularity: 76
+Feel The Love - KIDS SEE GHOSTS  170   Popularity: 68
+Big Brother - Kanye West  171   Popularity: 47
+Poetic Justice - Kendrick Lamar  172   Popularity: 76
+good kid - Kendrick Lamar  173   Popularity: 61
+m.A.A.d city - Kendrick Lamar  174   Popularity: 72
+Cudi Montage - KIDS SEE GHOSTS  175   Popularity: 68
+Way Bigger - Don Toliver  176   Popularity: 73
+Crossfaded - Don Toliver  177   Popularity: 63
+Touch The Sky - Kanye West  178   Popularity: 78
+Crack Music - Kanye West  179   Popularity: 62
+Can't Tell Me Nothing - Kanye West  180   Popularity: 64
+5X - Don Toliver  181   Popularity: 66
+ILoveUIHateU - Playboi Carti  182   Popularity: 80
+XXX. FEAT. U2. - Kendrick Lamar  183   Popularity: 72
+King's Dead (with Kendrick Lamar, Future & James Blake) - Jay Rock  184   Popularity: 69
+Bad Idea (feat. Chance the Rapper) - Cordae  185   Popularity: 64
+If You Know You Know - Pusha T  186   Popularity: 63
+Good Life - Kanye West  187   Popularity: 63
+Barry Bonds - Kanye West  188   Popularity: 46
+Good Night - Bonus Track - Kanye West  189   Popularity: 38
+Apple Pie - Travis Scott  190   Popularity: 67
+Frat Rules (feat. A$AP Rocky, Playboi Carti & Big Sean) - A$AP Mob  191   Popularity: 71
+ARE YOU WITH THAT? - Vince Staples  192   Popularity: 71
+The Glory - Kanye West  193   Popularity: 37
+Bittersweet Poetry (feat. John Mayer) -   194   Popularity: 0
+The Games We Play - Pusha T  195   Popularity: 65
+Hard Piano - Pusha T  196   Popularity: 57
+Come Back Baby - Pusha T  197   Popularity: 59
+12.38 (feat. 21 Savage, Ink & Kadhja Bonet) - Childish Gambino  198   Popularity: 65
+Wintertime - Cordae  199   Popularity: 54
+Family Matters (feat. Arin Ray) - Cordae  200   Popularity: 51
+Nightmares Are Real (feat. Pusha T) - Cordae  201   Popularity: 54
+Santeria - Pusha T  202   Popularity: 59
+What Would Meek Do? - Pusha T  203   Popularity: 59
+The Chase (feat. Kadhja Bonet) - Anderson .Paak  204   Popularity: 45
+Headlow (feat. Norelle) - Anderson .Paak  205   Popularity: 49
+Tints (feat. Kendrick Lamar) - Anderson .Paak  206   Popularity: 65
+Who R U? - Anderson .Paak  207   Popularity: 51
+6 Summers - Anderson .Paak  208   Popularity: 53
+Saviers Road - Anderson .Paak  209   Popularity: 55
+Smile/Petty (feat. Sonyae Elise) - Anderson .Paak  210   Popularity: 45
+Mansa Musa (feat. Dr. Dre & Cocoa Sarai) - Anderson .Paak  211   Popularity: 44
+Brother's Keeper (feat. Pusha T) - Anderson .Paak  212   Popularity: 51
+Anywhere (feat. Snoop Dogg & The Last Artful, Dodgr) - Anderson .Paak  213   Popularity: 55
+The Story of O.J. - JAY-Z  214   Popularity: 70
+Pure Souls - Kanye West  215   Popularity: 56
+Amazing - Kanye West  216   Popularity: 70
+Gifted (feat. Roddy Ricch) - Cordae  217   Popularity: 63
+Jean-Michel - Cordae  218   Popularity: 64
+Momma’s Hood - Cordae  219   Popularity: 61
+Want From Me - Cordae  220   Popularity: 62
+Today (feat. Gunna) - Cordae  221   Popularity: 78
+C Carter - Cordae  222   Popularity: 70
+Chronicles (feat. H.E.R. & Lil Durk) - Cordae  223   Popularity: 76
+Champagne Glasses (feat. Freddie Gibbs & Stevie Wonder) - Cordae  224   Popularity: 65
+Westlake High - Cordae  225   Popularity: 60
+Thanksgiving - Cordae  226   Popularity: 53
+Alien feat Quavo Kid Cudi Young Thug  Ant Clemons REUPLOAD -   227   Popularity: 0
+Space X - JulezJZ  228   Popularity: 41
+Chakras - JulezJZ  229   Popularity: 45
+Infrared - Pusha T  230   Popularity: 54
+LOVE. FEAT. ZACARI. - Kendrick Lamar  231   Popularity: 85
+PRIDE. - Kendrick Lamar  232   Popularity: 81
+I Can Tell - Travis Scott  233   Popularity: 59
+Maria I'm Drunk (feat. Justin Bieber & Young Thug) - Travis Scott  234   Popularity: 73
+Nightcrawler (feat. Swae Lee & Chief Keef) - Travis Scott  235   Popularity: 69
+City of Gods - Fivio Foreign  236   Popularity: 87
+3500 (feat. Future & 2 Chainz) - Travis Scott  237   Popularity: 70
+Oh My Dis Side (feat. Quavo) - Travis Scott  238   Popularity: 67
+Eazy - The Game  239   Popularity: 84
+Diet Coke - Pusha T  240   Popularity: 77
+School Spirit - Kanye West  241   Popularity: 66
+Say You Will - Kanye West  242   Popularity: 64
+Pray 4 Love (feat. The Weeknd) - Travis Scott  243   Popularity: 66
+Wasted (feat. Juicy J) - Travis Scott  244   Popularity: 57
+Through The Wire - Kanye West  245   Popularity: 81
+Super Rich Kids - Frank Ocean  246   Popularity: 77
+Nights - Frank Ocean  247   Popularity: 83
+Tyson vs. Ali (feat. Conway The Machine) - Benny The Butcher  248   Popularity: 63
 
-2 created by heno
+GangSter created by heno
 
-Average Song Popularity: 63.9
-Average Song Length: 6.917158475783474e-05
+Average Song Popularity: 62.5
+Average Song Length: 6.686042226702504e-05
 PLAYLIST CREATOR: https://open.spotify.com/user/y9wxx7jazxqf5b2pwy8knwazh
-PLAYLIST LINK: https://open.spotify.com/playlist/0zl8v5elnNJn1XqwFojIui
-Sweet Talkin' Woman - Electric Light Orchestra (RECOMMENDED)
+PLAYLIST LINK: https://open.spotify.com/playlist/1QrMDK9IL8JK7YTIsclb8T
+Pick Up The Pace - Big K.R.I.T. (RECOMMENDED)
+Hood Politics - Kendrick Lamar (RECOMMENDED)

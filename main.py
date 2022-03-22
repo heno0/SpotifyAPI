@@ -2,17 +2,25 @@ import requests
 import matplotlib.pyplot as plt
 import numpy
 import random
+from http.server import BaseHTTPRequestHandler, HTTPServer
+import time
 import base64
 
 # prerequisite links and ids
 V1_URL = 'https://api.spotify.com/v1/playlists/'
-AUTH_URL = 'https://accounts.spotify.com/authorize'
+AUTH_URL = 'https://accounts.spotify.com/api/token'
 
 CLIENT_ID = 'fa9c7ce9f46e45a5ad8661bbf11d89a3'
 CLIENT_SECRET = '7899184f3fda481383b6e4a4442b0ab3'
 
+AUTHO = 'ZmE5YzdjZTlmNDZlNDVhNWFkODY2MWJiZjExZDg5YTM6Nzg5OTE4NGYzZmRhNDgxMzgzYjZlNGE0NDQyYjBhYjM='
+
 # PLAYLISTID = '1QrMDK9IL8JK7YTIsclb8T'  # gangster
 # PLAYLISTID = '3vjr3IER5PmWNv9AzZj12s'  # jack rando playlist (low amt of songs)
+
+hostName = 'localhost'
+serverPort = 8888
+getTracks = ''
 
 SpotPlaylist = []
 Popularity = []
@@ -34,26 +42,23 @@ RecommendedTotal = []
 
 DecodeErrorsSkipped = 0
 
+resp = ""
+
 
 def getSpotifyAccessToken():
-    # get access token using id and secret
-    auth_response2 = requests.get(AUTH_URL, {
-        'client_id': CLIENT_ID,
-        'scope': 'playlist-modify-public',
-        'response-type': 'code',
-        'redirect-uri': 'https://localhost:8888'
+    header = {
+        'Content-Type': 'application/x-www-form-urlencoded',
+        'Authorization': 'Basic {}'.format(AUTHO),
 
-    })
-
-    resp = (auth_response2.content).replace("\n", '')
-    print(resp)
-
-    # get access token using id and secret
-    auth_response = requests.post(AUTH_URL, {
+    }
+    body = {
         'grant_type': 'client_credentials',
-        'client_id': CLIENT_ID,
-        'client_secret': CLIENT_SECRET,
-    })
+        'scope': 'playlist-modify-public playlist-modify-private'
+    }
+
+    # get access token using id and secret
+    auth_response = requests.post(AUTH_URL, data=body, headers=header)
+
     return auth_response.json()['access_token']
 
 
@@ -62,12 +67,14 @@ def getSongFeatures(id):
     jsonID = requests.get(getString + str(id), headers=authoHeader)
     return jsonID.json()
 
+
 def allThreeVals(std, ave):
     lis = []
     lis.append(str(ave))
-    lis.append(str(ave-std))
-    lis.append(str(ave+std))
+    lis.append(str(ave - std))
+    lis.append(str(ave + std))
     return lis
+
 
 def getGenres(id):
     genres = []
@@ -75,27 +82,32 @@ def getGenres(id):
     jsonID = requests.get(getString + str(id), headers=authoHeader)
     counter = 0
     while counter != 2:
-        gen = jsonID.json()['genres'][counter]
-        genres.append(gen)
-        counter = counter + 1
+        try:
+            gen = jsonID.json()['genres'][counter]
+            genres.append(gen)
+            counter = counter + 1
+        except IndexError:
+            genres.append(gen)
 
     return genres
 
+
 def standDev(val):
     return numpy.std(val)
+
 
 def ave(val):
     return numpy.average(val)
 
 
 def storeValsForRecommended():
-    limit = input("\nHow Many Recommended Songs Do You Want Added?   ")
+    limit = 2#input("\nHow Many Recommended Songs Do You Want Added?   ")
 
     counter = 0
     while counter != len(SongID):
         try:
             feature = getSongFeatures(SongID[counter])
-            print(str(counter/len(SongID))+"%")
+            print(str(counter / len(SongID)*100) + "%")
 
             dance = feature['audio_features'][0]['danceability']
             energy = feature['audio_features'][0]['energy']
@@ -111,11 +123,12 @@ def storeValsForRecommended():
             Acousticness.append(acoustic)
             Speechiness.append(speech)
 
-            counter = counter+1
+
+            counter = counter + 1
         except requests.exceptions.JSONDecodeError:
-            print('\nSTORING')
+            pass
         except TypeError:
-            print("\nSTORING")
+            counter = counter + 1
 
     aveD = ave(Danceability)
     aveE = ave(Energy)
@@ -137,17 +150,47 @@ def storeValsForRecommended():
     RA2 = random.randint(0, len(ArtistID)-1)
     RA3 = random.randint(0, len(ArtistID)-1)
 
+    counter = 0
+    while counter != len(ArtistID):
+        if ArtistID[counter] == None:
+            ArtistID.pop(counter)
+        counter = counter+1
+    counter=0
+    while counter != len(SongID):
+        if SongID[counter] == None:
+            SongID.pop(counter)
+        counter = counter+1
 
-    getString1 = "https://api.spotify.com/v1/recommendations?limit=" + str(limit) + "&seed_artists=" + ArtistID[RA1] + "%2C" + ArtistID[RA2] + "%2C" + ArtistID[RA3]
+    print(SongID)
+    print(ArtistID)
+
+    getString1 = "https://api.spotify.com/v1/recommendations?limit=" + str(limit) + "&seed_artists=" + ArtistID[
+        RA1] + "%2C" + ArtistID[RA2] + "%2C" + ArtistID[RA3]
     getString2 = "&seed_genres=" + getGenres(ArtistID[RA1])[0] + "%2C" + getGenres(ArtistID[RA1])[1]
-    getString3 = "&seed_tracks" + "%2C".join(SongID) + "&min_danceability=" + str(aveD - stdD) + "&max_danceability=" + str(aveD + stdD) + "&target_danceability=" + str(aveD)
-    getString4 = "&min_energy=" + str((aveE - stdE)) + "&max_energy=" + str((aveE+stdE)) + "&target_energy=" + str(aveE)
-    getString5 = "&min_loudness=" + str((aveLo - stdLo)) + "&max_loudness=" + str((aveLo + stdLo)) + "&target_loudness=" + str(aveLo)
+    try:
+        getString3 = "&seed_tracks" + "%2C".join(SongID[:100]) + "&min_danceability=" + str(
+                aveD - stdD - .13) + "&max_danceability=" + str(aveD + stdD + .13) + "&target_danceability=" + str(aveD + .13)
+    except IndexError:
+        getString3 = "&seed_tracks" + "%2C".join(SongID) + "&min_danceability=" + str(
+                aveD - stdD - .13) + "&max_danceability=" + str(aveD + stdD + .13) + "&target_danceability=" + str(aveD + .13)
+    getString4 = "&min_energy=" + str((aveE - stdE) - .13) + "&max_energy=" + str((aveE + stdE) + .13) + "&target_energy=" + str(
+        aveE)
+    getString5 = "&min_loudness=" + str((aveLo - stdLo - .13)) + "&max_loudness=" + str(
+        (aveLo + stdLo + .13)) + "&target_loudness=" + str(aveLo)
+    getString6 = "&min_acousticness=" + str(aveA-stdA - .13) + "&max_acousticness=" + str(
+        aveA+stdA + .13) + "&target_acousticness=" + str(aveA)
+    getString7 = "&min_liveness=" + str(aveLi-stdLi - .13) + "&max_liveness=" + str(
+        aveLi+stdLi + .13) + "&target_liveness=" + str(aveLi)
 
-    getString = getString1 + getString2 + getString4 + getString5 + getString3
+    getString = getString1 + getString2 + getString4 + getString5 + getString6 + getString7 + getString3
     getString = getString.replace(" ", "%20")
+    print(getString)
 
-    getTracks = (requests.get(getString, headers=authoHeader)).json()
+    getTracks = (requests.get(getString, headers=authoHeader))
+    print(getTracks)
+    getTracks = getTracks.json()
+
+
 
     counter = 0
     print("RECOMMENDED TRACKS\n")
@@ -161,22 +204,28 @@ def storeValsForRecommended():
 
         RecommendedIDS.append(id)
         RecommendedTotal.append("{} - {} (RECOMMENDED)".format(name, artist))
-        counter = counter+1
+        counter = counter + 1
+
+
 
     addToPlaylist(RecommendedIDS, limit)
 
 
 def addToPlaylist(ids, limit):
-    print("\n\nADDING TO PLAYLIST")
+    print("\nADDING TO PLAYLIST")
     baseString = "https://api.spotify.com/v1/playlists/{}/tracks?uris=".format(PLAYLISTID)
 
     base2 = "spotify%3Atrack%3A"
     base3 = "%2Cspotify%3Atrack%3A".join(ids)
-    url = baseString+base2+base3
+    url = baseString + base2 + base3
+    tokn = input("Spotify Access Code (https://developer.spotify.com/console/post-playlist-tracks/):  ")
+    authoHeader = {
+        'Authorization': 'Bearer {}'.format(tokn),
+        'Content-Type': 'application/x-www-form-urlencoded',
+    }
     pos = requests.post(url, headers=authoHeader)
     print(pos.json())
     storeToTxt(0)
-
 
 
 def getSongInfo(offset):
@@ -189,13 +238,14 @@ def getSongInfo(offset):
 def getPlaylistName():
     # create header for GET call
     autoHeader = {
-        'Authorization': 'Bearer {}'.format(TOKEN)
+        'Authorization': 'Bearer {}'.format(getSpotifyAccessToken())
     }
 
     # get call
     req = requests.get(V1_URL + PLAYLISTID, headers=autoHeader)
 
     return req.json()
+
 
 def getMostFrequentValue(list):
     counter = 0
@@ -260,9 +310,7 @@ def storeToTxt(ero):
         t.writelines(playlistLink)
         t.writelines('\n'.join(RecommendedTotal))
 
-    print(userString)
     print("\nADDED TO TXT FILE")
-    plot()
 
 
 def storeAllPlaylistTracks():
@@ -313,16 +361,10 @@ def storeAllPlaylistTracks():
             DecodeErrorsSkipped = DecodeErrorsSkipped + 1
 
 
-# get token from accesstoken()
-TOKEN = getSpotifyAccessToken()
-#TOKEN = "BQDYnEAe6Ue4c9uroI8heknmkew3vMGLn4_Zua7wQbDWtSImFsFFepQu0tmusf1QYM4oc0bBd7HOWDONUCB0PCCpJ9kEdYf1HMImCUDl0NSCoxt1C_UNA2sqoaseVFWoVukrEMEldBIG0HL8PAxiWOL0SrgrrdkQX23YiXpz6X1jNN48LZWM4olj2H7tFkUY8NI"
-
 # create header for GET call
-
 authoHeader = {
-    'Authorization': 'Bearer {}'.format(TOKEN),
-    'Content-Type': 'application/json',
-    'Accept': 'application/json'
+    'Authorization': 'Bearer {}'.format(getSpotifyAccessToken()),
+    'Content-Type': 'application/x-www-form-urlencoded',
 }
 
 # input playlist link for playlist id
